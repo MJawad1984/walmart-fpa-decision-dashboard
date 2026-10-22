@@ -1,0 +1,5 @@
+metric,guidance_low,guidance_high,guidance_mid,actual,unit,basis,source_note,status,variance_to_mid,variance_to_mid_pct,material_variance,interpretation
+Net sales growth,0.03,0.04,0.035,0.0546171477832742,percentage,CONSTANT_CURRENCY,FY25 constant-currency net sales 677736 / FY24 reported net sales 642637 minus 1,ABOVE_GUIDANCE,0.019617147783274197,0.560489936664977,True,FAVORABLE
+Operating income growth,0.04,0.06,0.05,0.0974358974358975,percentage,ADJUSTED_CONSTANT_CURRENCY,FY25 adjusted constant-currency operating income 29746 / FY24 adjusted operating income 27105 minus 1,ABOVE_GUIDANCE,0.0474358974358975,0.94871794871795,True,FAVORABLE
+Adjusted EPS,2.23,2.37,2.3,2.51,usd_per_share,ADJUSTED_POST_SPLIT,FY25 earnings release adjusted EPS reconciliation page 16,ABOVE_GUIDANCE,0.20999999999999996,0.09130434782608694,True,FAVORABLE
+Capital expenditures as pct of net sales,0.03,0.035,0.0325,0.0352582063575365,percentage,REPORTED_NET_SALES,FY25 payments for property and equipment 23783 / reported net sales 674538,ABOVE_GUIDANCE,0.0027582063575364996,0.08486788792419998,True,REVIEW_CAPITAL_ALLOCATION
