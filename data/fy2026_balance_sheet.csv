@@ -1,0 +1,17 @@
+line_item,amount_usd_mn,section
+cash_and_cash_equivalents,10727,asset
+receivables,11172,asset
+inventory,58851,asset
+prepaid_and_other_current_assets,4124,asset
+property_plant_equipment_net,136083,asset
+operating_and_finance_lease_assets,20873,asset
+goodwill,28735,asset
+other_long_term_assets,14103,asset
+interest_bearing_debt_excluding_finance_leases,44762,liability
+accounts_payable,63061,liability
+accrued_liabilities,31187,liability
+accrued_income_taxes,596,liability
+operating_and_finance_lease_obligations,22333,liability
+deferred_income_taxes_and_other,16549,liability
+redeemable_noncontrolling_interest,293,liability
+total_shareholders_equity,105887,equity

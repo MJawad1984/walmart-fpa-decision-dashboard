@@ -1,0 +1,5 @@
+metric,value,unit,source_note
+shares_outstanding,7972.402501,million_shares,Form 10-K shares outstanding as of 2026-03-11
+cash_and_cash_equivalents,10727,usd_mn,FY2026 balance sheet
+interest_bearing_debt_excluding_finance_leases,44762,usd_mn,FY2026 balance sheet
+operating_and_finance_lease_obligations,22333,usd_mn,FY2026 balance sheet
