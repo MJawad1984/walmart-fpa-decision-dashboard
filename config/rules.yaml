@@ -1,0 +1,74 @@
+calendar:
+  days_per_year: 365
+
+history:
+  baseline_year: 2023
+  analysis_start_year: 2024
+  analysis_end_year: 2026
+
+working_capital:
+  rounding_decimals: 3
+
+guidance:
+  midpoint_materiality_pct: 0.01
+  zero_denominator_tolerance: 0.000000001
+  labels:
+    above: ABOVE_GUIDANCE
+    within: WITHIN_GUIDANCE
+    below: BELOW_GUIDANCE
+  required_bases:
+    Net sales growth: CONSTANT_CURRENCY
+    Operating income growth: ADJUSTED_CONSTANT_CURRENCY
+    Adjusted EPS: ADJUSTED_POST_SPLIT
+    Capital expenditures as pct of net sales: REPORTED_NET_SALES
+  above_range_interpretation:
+    Net sales growth: FAVORABLE
+    Operating income growth: FAVORABLE
+    Adjusted EPS: FAVORABLE
+    Capital expenditures as pct of net sales: REVIEW_CAPITAL_ALLOCATION
+
+forecast:
+  years: [2027, 2028, 2029, 2030, 2031]
+  net_sales_growth:
+    2027: 0.045
+    2028: 0.040
+    2029: 0.035
+    2030: 0.030
+    2031: 0.030
+  capex_pct_net_sales:
+    2027: 0.035
+    2028: 0.035
+    2029: 0.034
+    2030: 0.033
+    2031: 0.032
+  tax_rate: 0.24
+  net_interest_rate_on_prior_debt_and_leases: 0.05
+  dividend_payout_pct_net_income: 0.34
+  debt_strategy: FLAT_NOMINAL_DEBT
+  use_historical_average_for:
+    - membership_other_income_pct_net_sales
+    - cost_of_sales_pct_net_sales
+    - operating_expense_pct_net_sales
+    - depreciation_amortization_pct_net_sales
+    - dso_days
+    - dio_days
+    - dpo_days
+
+valuation:
+  wacc_base: 0.070
+  terminal_growth_base: 0.025
+  wacc_sensitivity: [0.060, 0.070, 0.080]
+  terminal_growth_sensitivity: [0.020, 0.025, 0.030]
+  include_lease_obligations_as_debt: true
+
+model_controls:
+  reconciliation_tolerance: 0.01
+  missing_value_status: EXCEPTION_PENDING_REVIEW
+  terminal_growth_must_be_below_wacc: true
+
+publication:
+  as_of_date: '2026-10-22'
+  unit_scale_millions_per_billion: 1000
+  basis_point_scale: 10000
+  historical_only: true
+  source_tolerance_usd_mn: 0.01
