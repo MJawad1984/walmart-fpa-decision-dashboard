@@ -4,7 +4,7 @@
 
 I built this independent public-data case to answer two finance questions: did Walmart exceed its initial public guidance, and how did growth translate into cash after capital expenditure?
 
-[Download the Excel dashboard](generated/Walmart_FPA_Decision_Dashboard.xlsx?raw=true) · [Read the case study](CASE_STUDY.md) · [Inspect the sources](source_registry.yaml)
+[Download the Excel dashboard](generated/Walmart_FPA_Decision_Dashboard.xlsx) · [Read the case study](CASE_STUDY.md) · [Inspect the sources](source_registry.yaml)
 
 ![Walmart FP&A dashboard](generated/dashboard_preview.png)
 
