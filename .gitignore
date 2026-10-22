@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+generated/*.sqlite
+generated/*.db
+generated/governance_export.json
+generated/dashboard_inputs.json

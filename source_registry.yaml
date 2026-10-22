@@ -1,0 +1,56 @@
+project: walmart_cfo_intelligence
+retrieval_date: 2026-10-22
+data_policy: Tier 1 official public sources; Tier 2 deterministic derivations
+sources:
+  - id: walmart_fy2024_10k
+    authority: SEC
+    document: Walmart Inc. Form 10-K for fiscal year ended 2024-01-31
+    url: https://www.sec.gov/Archives/edgar/data/104169/000010416924000056/wmt-20240131.htm
+    used_for:
+      - FY2023 and FY2024 statements
+      - receivables
+      - inventory
+      - accounts payable
+      - cost of sales
+  - id: walmart_fy2025_10k
+    authority: SEC
+    document: Walmart Inc. Form 10-K for fiscal year ended 2025-01-31
+    url: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+    used_for:
+      - FY2025 statements
+      - working-capital balances
+  - id: walmart_fy2026_10k
+    authority: SEC
+    document: Walmart Inc. Form 10-K for fiscal year ended 2026-01-31
+    url: https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm
+    used_for:
+      - FY2026 statements and full balance-sheet base
+      - cash flow and capex
+      - working-capital balances
+      - debt and lease obligations
+      - shares outstanding as of 2026-03-11
+  - id: walmart_fy2025_initial_guidance
+    authority: SEC furnished earnings release
+    document: Walmart FY2024 Q4 earnings release dated 2024-02-20
+    url: https://www.sec.gov/Archives/edgar/data/104169/000010416924000019/earningsreleasefy24q4.htm
+    used_for:
+      - initial FY2025 net-sales growth guidance
+      - initial FY2025 operating-income growth guidance
+      - initial FY2025 adjusted EPS guidance
+      - initial FY2025 capex guidance
+  - id: walmart_fy2025_results
+    authority: SEC furnished earnings release
+    document: Walmart FY2025 Q4 earnings release dated 2025-02-20
+    url: https://www.sec.gov/Archives/edgar/data/104169/000010416925000010/earningsreleasefy25q4.htm
+    used_for:
+      - FY2025 adjusted EPS actual
+      - FY2025 result validation
+  - id: walmart_fy2027_updated_guidance
+    authority: SEC furnished earnings release
+    document: Walmart FY2027 Q2 earnings release dated 2026-08-20
+    url: https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm
+    used_for:
+      - FY2027 net-sales growth range of 4.0% to 5.0%
+      - FY2027 forecast-year growth midpoint of 4.5%
+synthetic_overlay:
+  enabled: false
